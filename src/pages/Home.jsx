@@ -4,6 +4,7 @@ import Product from '../components/Product';
 
 const Home = () => {
     const API_URL = "https://fakestoreapi.com/products";
+    //changes for github
     const [loading,setloading]=useState(false);
     const [posts,setposts]=useState([]);
     
